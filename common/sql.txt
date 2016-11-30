@@ -1,0 +1,18 @@
+create table user(
+id int auto_increment not null,
+username varchar(100),
+email varchar(100),
+password varchar(100),
+constraint pk_user primary key(id)
+)
+
+
+
+INSERT INTO `abin`.`user` (`id`, `username`, `email`, `password`) VALUES ('1', 'abin', 'abin@lee.com', '123456');
+
+
+
+
+
+
+
